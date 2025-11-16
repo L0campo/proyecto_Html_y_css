@@ -36,6 +36,7 @@ h2{
     gap: 2rem;
     margin: 3rem auto;
     max-width:70rem ;
+    
 }
 .boton{
     flex: 1 1 25%;
@@ -51,25 +52,12 @@ h2{
     transition: transfrom 0.2s ease;
     font-family: 'Times New Roman', Times, serif;
     
+    
 }
 .boton:hover{
     transform: scale(1.05);
 }
 
-@media (max-width:885px)  {
-
-
-    button{
-        width: 40%;
-        height:6em;
-        background-color: lightskyblue;
-        border-radius: 10%;
-        font-size: 1.8em;
-        
-        
-        
-    }
-    }  
 .carousel {
     width: 600px;
     height: 600px;    
@@ -173,4 +161,64 @@ h2{
 .dialogo-2 p {
     font-size: 1.1rem;
     line-height: 1.6;
+}
+
+.con{
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+
+}
+.caja > h2{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.caja > p{
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.caja{
+    background-color: #1bb0ce;
+    border-radius: 2rem;
+}
+
+.con-contactos{
+    width: 100%;
+    padding: 3rem 1rem;
+    background-color: #050506;
+    text-align: center;
+}
+.contactos{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+    flex-wrap: wrap;
+}
+.item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 80%;
+    max-width: 400px;
+    color: white;
+}
+
+
+.item img {
+    width: 12%;
+    max-width: 40px;
+}
+
+.item p {
+    font-size: 1.3rem;
+    margin: 0;
 }

@@ -1,0 +1,56 @@
+.form-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.form-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+}
+
+.campo label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.campo input,
+.campo select {
+    width: 100%;
+    padding: 0.9rem;
+    border-radius: 0.6rem;
+    border: 0.15rem solid #333;
+    font-size: 1.1rem;
+    background-color: #fff;
+}
+
+.btn-enviar {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.btn-enviar:hover {
+    transform: scale(1.05);}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
+    <title>formulario</title>
+    <link rel="stylesheet" href="estilo-formulario.css">
+</head>
+<body>
+    <section class="form-container">
+    <h2>Formulario de Contacto</h2>
+
+    <form class="formulario">
+        <div class="campo">
+            <label>Nombre</label>
+            <input type="text" placeholder="Escribe tu nombre" required>
+        </div>
+
+        <div class="campo">
+            <label>Apellido</label>
+            <input type="text" placeholder="Escribe tu apellido" required>
+        </div>
+
+        <div class="campo">
+            <label>Correo</label>
+            <input type="email" placeholder="correo@ejemplo.com" required>
+        </div>
+
+        <div class="campo">
+            <label>Teléfono</label>
+            <input type="tel" placeholder="+57 300 000 0000" required>
+        </div>
+
+        <div class="campo">
+            <label>¿Qué deseas?</label>
+            <select required>
+                <option value="">Selecciona una opción</option>
+                <option value="donar">Donar</option>
+                <option value="voluntariado">Voluntariado</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn-enviar">Enviar</button>
+    </form>
+</section>
+    
+</body>
+</html>
