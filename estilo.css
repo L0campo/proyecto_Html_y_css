@@ -6,7 +6,7 @@
 }
 
 body{
-
+    
     background-color: #dad6ca;
 
 }
@@ -39,28 +39,43 @@ h2{
     
 }
 .boton{
-    flex: 1 1 25%;
-    max-width: 20rem;
-    padding: 1rem 2rem;
-    font-size: 1.2rem;
-
-    background: #1bb0ce;
-    border: 1px solid black;
-    border-radius:3rem;
-
-    cursor: pointer;
-    transition: transfrom 0.2s ease;
-    font-family: 'Times New Roman', Times, serif;
     
+        width: 12rem;     
+        height: 4rem;     
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+        padding: 0;
+        font-size: 1.4rem;
+        font-family: 'Times New Roman', Times, serif;
+      
+        background: #1bb0ce;
+        border: 1px solid black;
+        border-radius: 3rem;
+      
+        cursor: pointer;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      
     
 }
-.boton:hover{
-    transform: scale(1.05);
-}
+.boton {
+    box-shadow: 0 6px 0 #0e6d82; 
+  }
+  
+  .boton:hover {
+    transform: translateY(-3px); 
+    box-shadow: 0 9px 0 #0e6d82;
+  }
+  
+  .boton:active {
+    transform: translateY(3px); 
+    box-shadow: 0 3px 0 #0e6d82;
+  }
 
 .carousel {
     width: 600px;
-    height: 600px;    
+    height: 500px;    
     overflow: hidden;
     margin: auto;
     border-radius: 15px;
@@ -93,32 +108,7 @@ h2{
     100% { margin-left: 0; }
 }
 
-.botones-2{
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    margin: 3rem auto;
-    max-width:70rem ;
- }
-.boton-2{
-    flex: 1 1 25%;
-    max-width: 20rem;
-    padding: 1rem 2rem;
-    font-size: 1.2rem;
 
-    background:#1bb0ce;
-    border: 1px solid black;
-    border-radius:3rem;
-
-    cursor: pointer;
-    transition: transfrom 0.2s ease;
-    font-family: 'Times New Roman', Times, serif;
-}
-.boton-2:hover{
-    transform: scale(1.05);
-}
 
 .seccion{
     width: 90%;
@@ -221,4 +211,13 @@ h2{
 .item p {
     font-size: 1.3rem;
     margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    
 }

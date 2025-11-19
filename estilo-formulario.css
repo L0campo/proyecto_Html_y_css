@@ -1,11 +1,23 @@
+body{
+    background: 
+    url('image/fondo2.png');
+    background-repeat: no-repeat;
+    background-position: start;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
 .form-container {
     width: 90%;
     max-width: 600px;
     margin: 3rem auto;
-    padding: 2rem;
-    background-color: #f9f9f9;
+    padding: 5rem;
+    background-color: bisque;
     border-radius: 1rem;
     text-align: center;
+    position: relative;
+    right: 20rem;
+    
 }
 
 .form-container h2 {
@@ -24,6 +36,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 0.4rem;
+    
 }
 
 .campo label {

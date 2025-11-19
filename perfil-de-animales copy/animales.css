@@ -59,7 +59,7 @@ header h1 {
     color: red;
 }
 
-/* Botón */
+
 .btn {
     display: inline-block;
     margin-top: 1rem;
@@ -79,7 +79,7 @@ header h1 {
 .perfil {
     display: flex;
     gap: 2rem;
-    background: white;
+    background: bisque;
     padding: 2rem;
     border-radius: 1rem;
 }
