@@ -68,3 +68,23 @@ body{
 
 .btn-enviar:hover {
     transform: scale(1.05);}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-row .field {
+  flex: 1;
+}
+
+@media (max-width: 700px) {
+  .form-row {
+    flex-direction: column;
+  }
+}
+
+form {
+  max-width: 700px;
+  width: 100%;
+}
